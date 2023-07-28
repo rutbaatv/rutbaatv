@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://rutbaatv.000webhostapp.com/` + encodeURI(path as string)
+					`https://rutbaatv.000webhostapp.com/`
 				}`,
 			},
 		};
